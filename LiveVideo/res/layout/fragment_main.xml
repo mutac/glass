@@ -4,15 +4,20 @@
     android:layout_height="match_parent"
     tools:context="cx.ath.there.android.glass.livevideo.MainActivity" >
 
+    <SurfaceView
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <TextView
         android:id="@+id/temperature"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="62dp"
-        android:layout_marginRight="82dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="19dp"
+        android:layout_marginLeft="17dp"
         android:text="TEMP: 0c"
-        android:textSize="40sp" />
+        android:textSize="12sp" />
 
 </RelativeLayout>
